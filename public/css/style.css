@@ -1,0 +1,105 @@
+html,body{
+    height: 100%;
+    height: 100%;
+    max-width: 100%;
+    background-color: rgb(221, 239, 255);
+    font-family: 'Inter';
+}
+.containercontainer{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-content: space-around;
+}
+
+.copy{
+    display: flex;
+    background-color: aqua;
+}
+
+.try{
+    background-color: rgb(250, 246, 211);
+    width: 20%;
+    box-shadow:
+  10.1px 2.8px 10.4px rgba(0, 0, 0, 0.02),
+  24.3px 6.7px 25.1px rgba(0, 0, 0, 0.028),
+  45.7px 12.5px 47.2px rgba(0, 0, 0, 0.035),
+  81.5px 22.3px 84.2px rgba(0, 0, 0, 0.042),
+  152.5px 41.8px 157.5px rgba(0, 0, 0, 0.05),
+  365px 100px 377px rgba(0, 0, 0, 0.07)
+;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+text-decoration: underline;
+cursor: pointer;
+}
+
+.no{
+    background-color: rgb(250, 246, 211);
+    width: 20%;
+    box-shadow:
+  -10.1px 2.8px 10.4px rgba(0, 0, 0, 0.02),
+  -24.3px 6.7px 25.1px rgba(0, 0, 0, 0.028),
+  -45.7px 12.5px 47.2px rgba(0, 0, 0, 0.035),
+  -81.5px 22.3px 84.2px rgba(0, 0, 0, 0.042),
+  -152.5px 41.8px 157.5px rgba(0, 0, 0, 0.05),
+  -365px 100px 377px rgba(0, 0, 0, 0.07)
+;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+text-decoration: underline;
+cursor: pointer;
+}
+
+.container{
+    display: flex;  
+    min-height: 100%;        /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60%;
+}
+
+.res{
+    padding-top: 20px;
+}
+
+pre{
+    overflow: auto;
+    white-space: pre-wrap;
+}
+
+.head{
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.md{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: beige;
+    padding: 25px;
+    box-shadow:
+  2px 2.8px 2.2px rgba(0, 0, 0, 0.006),
+  4.8px 6.7px 5.3px rgba(0, 0, 0, 0.008),
+  9px 12.5px 10px rgba(0, 0, 0, 0.01),
+  16.1px 22.3px 17.9px rgba(0, 0, 0, 0.012),
+  30.1px 41.8px 33.4px rgba(0, 0, 0, 0.014),
+  72px 100px 80px rgba(0, 0, 0, 0.02)
+;
+}
+
